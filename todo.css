@@ -1,0 +1,126 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#tasks {
+  margin-bottom: 20px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.todo-item:hover {
+  background-color: #f9f9f9;
+}
+
+.todo-item p {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.todo-item.done p {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button.edit {
+  background-color: #28a745;
+}
+
+button.edit:hover {
+  background-color: #218838;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
+
+button.status {
+  background-color: #ffc107;
+}
+
+button.status:hover {
+  background-color: #e0a800;
+}
+
+.add-button {
+  margin-top: 20px;
+  background-color: #28a745;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.count {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.count span {
+  font-weight: bold;
+  color: #333;
+}

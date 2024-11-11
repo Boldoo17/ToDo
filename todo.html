@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      #tasks {
+        margin-top: 20px;
+      }
+      .todo-item {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+      }
+      .todo-item button {
+        margin-left: 10px;
+      }
+      .addTodoButton {
+        color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>To Do</h1>
+
+    <button id="addTodoButton">Add Todo</button>
+
+    <div id="tasks"></div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
